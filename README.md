@@ -14,10 +14,10 @@ This is the final Front End track activity as part of the Manchester Codes cours
 4. Run npm start to start the project, the app will compile on localhost 3000 and will open in browser automatically
 5. Run npm test to tests if desired
 
-### If I had more time
+## If I had more time
 
 tbd
 
-#### Author's name
+## Author's name
 
 Bella Copland 

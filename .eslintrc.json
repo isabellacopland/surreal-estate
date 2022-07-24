@@ -4,7 +4,11 @@
         "es6": true,
         "jest": true
     },
-    "extends": [ "airbnb", "plugin:prettier/recommended" ],
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:prettier/recommended"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -20,19 +24,20 @@
         "react"
     ],
     "rules": {
-        "no-underscore-dangle": [0],
-        "react/jsx-props-no-spreading": [0],
-        "react/jsx-filename-extension": [
-          1,
-          {
-            "extensions": [".js", ".jsx"]
-          }
-        ],
-        "react/function-component-definition": [
-          2,
-          {
-            "namedComponents": "arrow-function"
-          }
-        ]
-      }
-}
+      "no-underscore-dangle": [0],
+      "react/jsx-props-no-spreading": [0],
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [".js", ".jsx"]
+        }
+      ],
+      "react/function-component-definition": [
+        2,
+        {
+          "namedComponents": "arrow-function"
+        }
+      ]
+    }
+  }
+  
